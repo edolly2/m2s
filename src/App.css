@@ -1,24 +1,21 @@
-.tooltip {
-  position: relative;
-  border-bottom: 1px dashed #000;
+.green {
+  background-color: rgb(145, 229, 145);
+  border: 3px solid green;
+  color: green
 }
 
-.tooltip:before {
-  content: attr(data-text);
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  left: 100%;
-  margin-left: 15px;
-  width: 200px;
-  padding: 10px;
-  border-radius: 10px;
-  background: #000;
-  color: #fff;
-  text-align: center;
-  display: none;
+.green:hover {
+  background-color: green;
+  color: rgb(145, 229, 145);
 }
 
-.tooltip:hover:before {
-  display: block;
+.red {
+  background-color: rgb(223, 111, 111);
+  border: 3px solid red;
+  color: red
+}
+
+.red:hover {
+  background-color: red;
+  color: rgb(223, 111, 111);
 }

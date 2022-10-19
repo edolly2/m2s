@@ -24,6 +24,7 @@ const NavSubList = styled.ul`
 const NavListItem = styled.li`
   position: relative;
   white-space: nowrap;
+  cursor: pointer;
   /* display: flex; */
   /* align-items: center; */
 `;

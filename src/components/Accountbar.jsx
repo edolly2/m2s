@@ -19,10 +19,7 @@ const Accountbar = () => {
         <BiUserCircle tooltip='User Account' />
       </AccountbarIcon>
       <AccountbarIcon>
-        <HiOutlineShoppingCart
-          data-text="Thanks for hovering! I'm a tooltip"
-          className='tooltip'
-        />
+        <HiOutlineShoppingCart />
       </AccountbarIcon>
     </AccountbarContainer>
   );
