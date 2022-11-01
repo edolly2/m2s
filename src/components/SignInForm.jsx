@@ -8,6 +8,8 @@ const FormContainer = styled.div`
   height: 100%;
   display: flex;
   justify-content: center;
+  position: absolute;
+  z-index: 2;
 `;
 const Form = styled.form`
   max-width: 600px;

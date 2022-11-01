@@ -3,7 +3,9 @@ import React, { useState } from 'react';
 
 import styled from 'styled-components';
 
-const NavContainer = styled.div``;
+const NavContainer = styled.div`
+postion: relative;
+`;
 const Nav = styled.nav`
   display: flex;
   gap: 30px;
@@ -37,6 +39,7 @@ const Navbar = () => {
         <NavList>
           <NavListItem>Home</NavListItem>
           <NavListItem>Meet The Maker</NavListItem>
+          <NavListItem>About</NavListItem>
           <NavListItem>
             <NavListItem
               style={{ display: 'flex', alignItems: 'center' }}
@@ -62,7 +65,6 @@ const Navbar = () => {
           </NavListItem>
           <NavListItem>Event Calendar</NavListItem>
           <NavListItem>Contact</NavListItem>
-          <NavListItem>Join Now</NavListItem>
         </NavList>
       </Nav>
     </NavContainer>
